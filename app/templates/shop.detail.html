@@ -1,0 +1,86 @@
+<div class="container-fluid">
+	<div class="shop-container text-center">
+		<h2>{{shopDetail.shop.name}}<span class="shop-title">{{shopDetail.shop.title}}</span></h2>
+		<h2 class="shop-address">{{shopDetail.shop.address}}</h2>
+		<p>режим работы: {{shopDetail.shop.time}}</p>
+		<p class="shop-phone"><span class="glyphicon glyphicon-earphone"></span>{{shopDetail.shop.phone}}</p>
+	</div>
+	<table class="table table-bordered table-goods">
+		<thead>
+		<tr class="text-center">
+			<td class="hidden-xs">№</td>
+			<td>Модель</td>
+			<td>Цена</td>
+			<td>Количество</td>
+			<td></td>
+		</tr>
+		</thead>
+		<tbody>
+		<tr ng-repeat="item in shopDetail.shop.goods">
+			<td class="text-center hidden-xs">{{$index + 1}}</td>
+			<td>
+				<img class="item-img" ng-src="{{item.img}}" alt="{{item.name}}">
+				<span class="item-name">{{item.name}}</span>
+			</td>
+			<td class="text-center">
+				<p>{{item.price}}</p>
+			</td>
+			<td class="text-center">
+				<p>{{item.total}}</p>
+			</td>
+			<td class="text-center">
+				<a class="item-edit-btn" href="#" data-toggle="tooltip" data-placement="top" title="Редактировать" ng-click="shopDetail.editItem(item)"><span class="glyphicon glyphicon-pencil"></span></a>
+			</td>
+		</tr>
+		</tbody>
+	</table>
+	<form name="newItem" class="new-item-form" ng-model="shopDetail.newItem">
+		<div class="form-group">
+			<input type="text" class="form-control" placeholder="Название товара" ng-model="shopDetail.newItem.name" required>
+		</div>
+		<div class="form-group">
+			<input type="text" class="form-control" placeholder="Цена товара" ng-model="shopDetail.newItem.price" required>
+		</div>
+		<div class="form-group">
+			<input type="text" class="form-control" placeholder="Путь до изображения" ng-model="shopDetail.newItem.img">
+		</div>
+		<div class="form-group">
+			<input type="text" class="form-control" placeholder="Количество" ng-model="shopDetail.newItem.total">
+		</div>
+		<div class="form-group text-center">
+			<button class="btn btn-add-shop btn-add-item" ng-disabled="newItem.$invalid" ng-click="shopDetail.addItem()">Добавить товар</button>
+		</div>
+	</form>
+	<div class="edit-item-form" id="edit-item-form">
+		<div class="edit-dorm-title">
+			<h3>Внесите изменения</h3>
+			<a href="#" class="close-edit-form" ng-click="shopDetail.closeEditForm()"><span class="glyphicon glyphicon-remove"></span></a>
+		</div>
+		<form class="edit-form-body" name="editForm">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Название" ng-model="shopDetail.itemEdit.name" required>
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Путь до изображения" ng-model="shopDetail.itemEdit.img">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Цена" ng-model="shopDetail.itemEdit.price" required>
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Количество" ng-model="shopDetail.itemEdit.total">
+			</div>
+			<div class="form-group text-center">
+				<button type="button" class="btn btn-add-shop" ng-disabled="editForm.$invalid" ng-click="shopDetail.saveItem()">Сохранить изменения</button>
+				<button type="button" class="btn btn-danger" ng-click="shopDetail.deleteItem()">Удалить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="shop-map">
+	<div class="map" id="shop-map" ng-init="shopDetail.initMap()"></div>
+</div>
+
+
+
+

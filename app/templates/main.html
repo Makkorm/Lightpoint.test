@@ -1,0 +1,24 @@
+<h2>Магазины Минска:</h2>
+<aside class="shop-box">
+	<ul class="shop-list">
+		<li class="shop-item clearfix" ng-repeat="shop in main.shops">
+			<p>{{$index + 1}}</p>
+			<div class="image" style="background: url({{shop.imgSrc}}); background-size: cover">
+			</div>
+			<div class="description">
+				<h3><a ui-sref="shop({ id: shop.id })">{{shop.name}}</a></h3>
+				<h4 class="shop-title">{{shop.title}}</h4>
+				<p class="shop-address">{{shop.address}}</p>
+				<p>режим работы: {{shop.time}}</p>
+				<p class="shop-phone"><span class="glyphicon glyphicon-earphone"></span>{{shop.phone}}</p>
+				<div class="btn-box">
+					<a  ui-sref="shop({ id : shop.id })" class="btn btn-default">Каталог</a>
+					<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#add-shop-modal" ng-click="main.editMode(shop)">Редактировать</a>
+				</div>
+			</div>
+		</li>
+	</ul>
+</aside>
+<div class="map-container">
+	<div class="map" id="map" ng-init="main.initMap()"></div>
+</div>

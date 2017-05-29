@@ -1,0 +1,500 @@
+[
+  {
+    "id": "1",
+    "name": "ALEXANDER KONASOV",
+    "title": "Магазин дизайнерских футболок",
+    "time": "до 22:00",
+    "address": "Минск, пр-т Победителей 9",
+    "phone": "+375 29 325-10-00",
+    "imgSrc": "http://static.relax.by/images/common/galleries/10606585/preview_ps/6de32093368da1435b2aea6ec970098c.jpg",
+    "goods": [
+      {
+        "id": "1",
+        "name": "Толстовка мужская 9",
+        "price": "109,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/a0/b9/a0b913d90ddf78af6532197738339438.jpg",
+        "total": "1"
+      },
+      {
+        "id": "2",
+        "name": "Толстовка мужская 11",
+        "price": "109,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/83/9e/839e76d90e31ed1aa4c91886efc75e3d.jpg",
+        "total": "1"
+      },
+      {
+        "id": "3",
+        "name": "Толстовка мужская 6",
+        "price": "60,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/3a/ee/3aee37b571867ecf6881e15d855fe64a.jpg",
+        "total": "4"
+      },
+      {
+        "id": "4",
+        "name": "Patrizia Pepe Брюки из экокожи",
+        "price": "от 328,50 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/90/7a/907a57406f8a2a4d33c9cda391e58fa1.jpg",
+        "total": "5"
+      },
+      {
+        "id": "5",
+        "name": "Isabel Garcia Брюки BB1219",
+        "price": "249,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/84/ad/84ad831c4b1e2c9d328dee651d58f633.jpg",
+        "total": "2"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Elema",
+    "title": "Магазин одежды",
+    "time": "до 22:00",
+    "address": "г. Минск, ул. Ленинградская, 2",
+    "phone": "+375 17 289-16-17",
+    "imgSrc": "http://static.relax.by/images/common/galleries/10357913/preview_ps/32210144d630eb0c96933cc2d42c1b4e.jpg",
+    "goods": [
+      {
+        "id": "1",
+        "name": "Elema Пальто женское утепленное Т-5863",
+        "price": "200,97 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/a6/f4/a6f48e584510ccd49d16388c590b0a7e.jpg",
+        "total": "2"
+      },
+      {
+        "id": "2",
+        "name": "Elema Пальто женское демисезонное Т-5301",
+        "price": "227,59 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/8f/98/8f98494ef437b103c51d11dafddc6a53.jpg",
+        "total": "-"
+      },
+      {
+        "id": "3",
+        "name": "Elema Плащ женский Т-6081",
+        "price": "149,64 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/98/23/982353dbc48ec6399291073891b61f03.jpg",
+        "total": "11"
+      },
+      {
+        "id": "4",
+        "name": "Elema Юбка женская Т-7131",
+        "price": "48,60 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/65/11/6511db352768f744723244a2a4824fca.jpg",
+        "total": "2"
+      },
+      {
+        "id": "5",
+        "name": "Elema Юбка женская Т-63611",
+        "price": "61,56 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/9e/ac/9eacd628e37e33ead8b88c01288d8585.jpg",
+        "total": "-"
+      },
+      {
+        "id": "6",
+        "name": "Elema Юбка женская Т-6240",
+        "price": "51,84 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/2b/cf/2bcf1ed27b00725d4b89629df3cc8267.jpg",
+        "total": "1"
+      },
+      {
+        "id": "7",
+        "name": "Elema Юбка женская Т-55116",
+        "price": "64,80 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/fa/37/fa37c047bb3523642d03dfeec9f18cfd.jpg",
+        "total": "1"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Hard Store",
+    "title": "Магазин одежды",
+    "time": "до 22:00",
+    "address": "г. Минск, ул. П. Глебки, 5, эт.2",
+    "phone": "+375 33 360-97-14",
+    "imgSrc": "http://static.relax.by/images/common/galleries/10607285/preview_ps/974050403f187848165b1049c22bfdff.jpg",
+    "goods": [
+      {
+        "id": "1",
+        "name": "SKILLS Ветровка Skills 'No way' Waterproof",
+        "price": "от 85,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/f8/c8/f8c84cd0b509f3e4ab30fc9bdc780dc9.jpg",
+        "total": "-"
+      },
+      {
+        "id": "2",
+        "name": "Anteater Анорак Spray",
+        "price": "от 80,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/18/da/18da1d9c2723894c3863a0c00d0e6f03.jpg",
+        "total": "-"
+      },
+      {
+        "id": "3",
+        "name": "CODERED Свитшот Mask",
+        "price": "130,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/c0/4c/c04c6319e6755709b4f30f69465f0901.jpg",
+        "total": "3"
+      },
+      {
+        "id": "4",
+        "name": "Anteater Футболка Uptown",
+        "price": "35,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/c3/4c/c34c971fc8d34b242592c6a3b0a9b5e1.jpg",
+        "total": "2"
+      },
+      {
+        "id": "5",
+        "name": "Запорожец Свитшот «Ласточки»",
+        "price": "75,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/2e/b7/2eb75df3dc878e8777b06910fcea2d2c.jpg",
+        "total": "1"
+      },
+      {
+        "id": "6",
+        "name": "Толстовка Clean CODERED",
+        "price": "78,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/92/b3/92b3aa2eedae6f730e3db3508fc51c9f.jpg",
+        "total": "1"
+      },
+      {
+        "id": "7",
+        "name": "CODERED Толстовка Daily",
+        "price": "75,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/7b/41/7b412d72bce84f7173d83189a86732b8.jpg",
+        "total": "2"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Kapalua",
+    "title": "Магазин одежды",
+    "time": "до 22:00",
+    "address": "г. Минск, пр-т Победителей, 65, пав. 1",
+    "phone": "+375 29 697-38-98",
+    "imgSrc": "http://static.relax.by/images/common/galleries/10353093/preview_ps/cd7c68e591d2e021bca5195fccc26951.jpg",
+    "goods": [
+      {
+        "id": "1",
+        "name": "Kapalua Куртка женская k1 11",
+        "price": "Цена по запросу",
+        "img": "http://static.relax.by/images/common/products/logos/03/56/03560aaca1a5440da801b39aac4e32b5.jpg",
+        "total": "3"
+      },
+      {
+        "id": "2",
+        "name": "Kapalua Куртка женская k1 06",
+        "price": "Цена по запросу",
+        "img": "http://static.relax.by/images/common/products/logos/1f/45/1f4517d0c2eec303e81977268cb9206c.jpg",
+        "total": "1"
+      },
+      {
+        "id": "3",
+        "name": "Kapalua Куртка женская k2 12",
+        "price": "Цена по запросу",
+        "img": "http://static.relax.by/images/common/products/logos/92/a2/92a2bf2e7d98269cd4754aa604cb9d91.jpg",
+        "total": "2"
+      },
+      {
+        "id": "4",
+        "name": "Kapalua Куртка женская k2 14",
+        "price": "Цена по запросу",
+        "img": "http://static.relax.by/images/common/products/logos/a3/08/a3086636dc19db987120cb1252afefaf.jpg",
+        "total": "1"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Suit Supply",
+    "title": "Магазин одежды",
+    "time": "до 21:00",
+    "address": "г. Минск, ул. Володарского, 21",
+    "phone": "+375 29 621-21-07",
+    "imgSrc": "http://static.relax.by/images/common/galleries/10075511/preview_ps/21fa52b73a300f2012b49a8a458e2af6.jpg",
+    "goods": [
+      {
+        "id": "1",
+        "name": "SKILLS Ветровка Skills 'No way' Waterproof",
+        "price": "от 85,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/f8/c8/f8c84cd0b509f3e4ab30fc9bdc780dc9.jpg",
+        "total": "1"
+      },
+      {
+        "id": "2",
+        "name": "Anteater Анорак Spray",
+        "price": "от 80,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/18/da/18da1d9c2723894c3863a0c00d0e6f03.jpg",
+        "total": "2"
+      },
+      {
+        "id": "3",
+        "name": "CODERED Свитшот Mask",
+        "price": "130,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/c0/4c/c04c6319e6755709b4f30f69465f0901.jpg",
+        "total": "1"
+      },
+      {
+        "id": "4",
+        "name": "Anteater Футболка Uptown",
+        "price": "35,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/c3/4c/c34c971fc8d34b242592c6a3b0a9b5e1.jpg",
+        "total": "1"
+      },
+      {
+        "id": "5",
+        "name": "Запорожец Свитшот «Ласточки»",
+        "price": "75,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/2e/b7/2eb75df3dc878e8777b06910fcea2d2c.jpg",
+        "total": "6"
+      },
+      {
+        "id": "6",
+        "name": "Толстовка Clean CODERED",
+        "price": "78,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/92/b3/92b3aa2eedae6f730e3db3508fc51c9f.jpg",
+        "total": "3"
+      },
+      {
+        "id": "7",
+        "name": "CODERED Толстовка Daily",
+        "price": "75,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/7b/41/7b412d72bce84f7173d83189a86732b8.jpg",
+        "total": "3"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Стихия",
+    "title": "Магазин товаров для экстремального спорта",
+    "time": "до 20:00",
+    "address": "г. Минск, ул. В. Хоружей, 1а",
+    "phone": "+375 17 288-32-88",
+    "imgSrc": "http://static.relax.by/images/common/galleries/197904/preview_ps/bea2ba65c8ac39a5d4dfbd2c6aa9fdac.jpg",
+    "goods": [
+      {
+        "id": "1",
+        "name": "SPY Маска Zed (With Bonus Lens) White",
+        "price": "133,20 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/da/3a/da3a3e57eb7af139b38a23249e540a9f.jpg",
+        "total": "1"
+      },
+      {
+        "id": "2",
+        "name": "SPY Маска Doom (WITH BONUS LENS) Nocturnal",
+        "price": "312,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/28/4b/284b5796f2f1f882d1eb7ae7548ee85d.jpg",
+        "total": "2"
+      },
+      {
+        "id": "3",
+        "name": "Razors Агрессивные ролики Razors Cult Street White",
+        "price": "340,90 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/da/23/da232cd6306698d8756796409e33da16.jpg",
+        "total": "-"
+      },
+      {
+        "id": "4",
+        "name": "Fila Роликовые коньки FM 100 black/white",
+        "price": "788,08 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/4e/e8/4ee86427af6e12ebb6b8380c90925346.jpg",
+        "total": "-"
+      },
+      {
+        "id": "5",
+        "name": "Dakine Чехол для лыж Ski Sleeve Single (175 см) lagrande",
+        "price": "100,27 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/d6/49/d6497f3bb93128228f3cc9ee0db5f041.jpg",
+        "total": "1"
+      },
+      {
+        "id": "6",
+        "name": "Graf Коньки хоккейные Super 101 Sakurai",
+        "price": "210,56 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/3e/b5/3eb50fa3fb94e2fea1b2912561998de1.jpg",
+        "total": "-"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "FitPro",
+    "title": "Магазин профессионального фитнес оборудования",
+    "time": "до 18:00",
+    "address": "г. Минск, ул. Пономаренко, 43а, оф. 322",
+    "phone": "+375 17 204-01-82",
+    "imgSrc": "http://static.relax.by/images/common/galleries/10569915/preview_ps/22f1f5ec9fa4caa0a8a2a8c04ffbe136.jpg",
+    "goods": [
+      {
+        "id": "1",
+        "name": "Circle Fitness Велотренажер вертикальный B6 E",
+        "price": "6 018,00 руб",
+        "img": "http://static.relax.by/images/common/products/logos/d1/d9/d1d9fac7d3049a1381f915238f2296a1.jpg",
+        "total": "1"
+      },
+      {
+        "id": "2",
+        "name": "Circle Fitness Эллиптический тренажер E6",
+        "price": "4 375,80 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/51/b7/51b73a0431639471559aeba497c37049.jpg",
+        "total": "1"
+      },
+      {
+        "id": "3",
+        "name": "Circle Fitness Эллиптический тренажер E7",
+        "price": "6 568,80 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/77/3d/773d53cb9a7307ac8cb0c1604b6738cb.jpg",
+        "total": "2"
+      },
+      {
+        "id": "4",
+        "name": "Circle Fitness Беговая дорожка Sprint M6 E AC",
+        "price": "9 343,20 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/e1/04/e1042e7ce820443304d6f39db3ab76de.jpg",
+        "total": "5"
+      },
+      {
+        "id": "5",
+        "name": "Circle Fitness Беговая дорожка Sprint M6 AC",
+        "price": "6 426,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/fd/5e/fd5eb33e816ac1fa1651ede1d465a145.jpg",
+        "total": "2"
+      },
+      {
+        "id": "6",
+        "name": "Vasa Тренажер для плавания",
+        "price": "Цена по запросу",
+        "img": "http://static.relax.by/images/common/products/logos/c2/9b/c29beb377fbeaa645516dd15ce7ab34c.jpg",
+        "total": "1"
+      },
+      {
+        "id": "7",
+        "name": "Precor Беговая дорожка C946I Assurance Series",
+        "price": "Цена по запросу",
+        "img": "http://static.relax.by/images/common/products/logos/7c/5f/7c5ffb96918f7c447d05f75baf0d31a9.jpg",
+        "total": "1"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Biblio",
+    "title": "Интернет-магазин",
+    "time": "до 21:00",
+    "address": "г. Минск, ул. Притыцкого, 29, эт.3",
+    "phone": "+375 29 615-65-88",
+    "imgSrc": "http://static.relax.by/images/common/galleries/10391013/preview_ps/f596bd68c4ab66cf327988ad165e5f7d.jpg",
+    "goods": [
+      {
+        "id": "1",
+        "name": "Рэй Брэдбери Книга «Вино из одуванчиков»",
+        "price": "от 5,40 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/6f/de/6fde3270e61db94dd82204de16c6304a.jpeg",
+        "total": "1"
+      },
+      {
+        "id": "2",
+        "name": "Халед Хоссейни Книга «Бегущий за ветром»",
+        "price": "16,20 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/48/df/48df72c49d2eaa3d7f3a659867fbb1bf.jpg",
+        "total": "2"
+      },
+      {
+        "id": "3",
+        "name": "Э.М. Ремарк Книга «Три товарища»",
+        "price": "от 5,70 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/d0/7a/d07a170961102a533af1328470cf562f.jpg",
+        "total": "1"
+      },
+      {
+        "id": "4",
+        "name": "Стивен Кинг Книга «Лавка дурных снов»",
+        "price": "16,50 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/d2/ef/d2efb85b7cc5d2f03ad68af7e27e317a.jpg",
+        "total": "3"
+      },
+      {
+        "id": "5",
+        "name": "Борис Пастернак Книга «Доктор Живаго»",
+        "price": "от 4,80 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/fe/70/fe7013d34ab2c114938b0337cc0c7729.jpg",
+        "total": "1"
+      },
+      {
+        "id": "6",
+        "name": "Пола Хокинс Книга «Девушка в поезде»",
+        "price": "11,40 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/49/d1/49d14ffe5a1f22463515832b39d0f545.jpg",
+        "total": "2"
+      },
+      {
+        "id": "7",
+        "name": "Джоан Роулинг Книга «Гарри Поттер и философский камень»",
+        "price": "46,50 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/b1/7a/b17a7435c7f324ebe91eb5a6af7275b7.jpg",
+        "total": "2"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Игромастер",
+    "title": "Магазин",
+    "time": "до 21:00",
+    "address": "г. Минск, ул. Немига, 3, пав. 88",
+    "phone": "+375 29 399-66-11",
+    "imgSrc": "http://static.relax.by/images/common/galleries/10476793/preview_ps/5453a77a194944f58ba85935812663e3.jpg",
+    "goods": [
+      {
+        "id": "1",
+        "name": "Asmodee Настольная игра «Диксит»",
+        "price": "79,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/d2/bc/d2bcabf4979a10fbe1ffd28248482ccb.png",
+        "total": "1"
+      },
+      {
+        "id": "2",
+        "name": "Plaid Hat Games Настольная игра «О Мышах и тайнах»",
+        "price": "135,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/80/31/8031c89e112d0fb8fc42caa40e1e3b13.jpg",
+        "total": "1"
+      },
+      {
+        "id": "3",
+        "name": "Hobby World Настольная игра «Цитадели»",
+        "price": "34,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/11/97/11978a2074fc20c23084fb48565e8afb.jpg",
+        "total": "2"
+      },
+      {
+        "id": "4",
+        "name": "Hasbro Настольная игра «Монополия»",
+        "price": "77,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/31/0c/310c4db31125fc2522f23cb38857331f.jpg",
+        "total": "-"
+      },
+      {
+        "id": "5",
+        "name": "Magellan Настольная игра «500 злобных карт 2.0»",
+        "price": "55,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/1d/c2/1dc2003e806e76a2bb97c4946348a130.jpg",
+        "total": "1"
+      },
+      {
+        "id": "6",
+        "name": "Hobby World Настольная игра «Игра Престолов. Второе издание»",
+        "price": "120,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/90/bf/90bfdb6cd7ccc43f7516b1edcd6b3a81.jpg",
+        "total": "4"
+      },
+      {
+        "id": "7",
+        "name": "Philos Настольная игра «Go»",
+        "price": "171,00 руб.",
+        "img": "http://static.relax.by/images/common/products/logos/62/d4/62d4c0e8179159c8f79e4bf9a4492f47.jpg",
+        "total": "2"
+      }
+    ]
+  }
+]

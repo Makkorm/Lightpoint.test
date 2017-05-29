@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Shops</title>
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style/main.css">
+</head>
+<body ng-controller="MainCtrl as main">
+<header class="header">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6 col-xs-4">
+				<h1 class="logo"><a href="#">LightPoint.<span>test</span></a></h1>
+			</div>
+			<div class="col-sm-6 col-xs-8 text-right">
+				<a href="#" class="add-shop-btn" data-toggle="modal" data-target="#add-shop-modal"><span class="glyphicon glyphicon-plus-sign"></span>Добавить магазин</a>
+			</div>
+		</div>
+	</div>
+</header>
+<main class="clearfix">
+	<div ui-view class="main"></div>
+</main>
+<div class="modal fade" id="add-shop-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" id="closeForm" data-dismiss="modal" aria-label="Close" ng-click="main.stopEdit()"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title text-center" id="myModalLabel">Внесите данные</h4>
+			</div>
+			<div class="modal-body">
+				<form name="newShop" ng-model="main.newShop">
+					<div class="form-group">
+						<label for="shop-name">Название<span class="required">*</span></label>
+						<input type="text" class="form-control" id="shop-name" placeholder="Название магазина" ng-model="main.newShop.name" required>
+					</div>
+					<div class="form-group">
+						<label for="shop-description">Описание</label>
+						<input type="text" class="form-control" id="shop-description" placeholder="Опсиание магазина" ng-model="main.newShop.title">
+					</div>
+					<div class="form-group">
+						<label for="shop-address">Адресс<span class="required">*</span></label>
+						<input type="text" class="form-control" id="shop-address" placeholder="Адрес" ng-model="main.newShop.address" required>
+					</div>
+					<div class="form-group">
+						<label for="shop-time">Режим работы</label>
+						<input type="text" class="form-control" id="shop-time" placeholder="Режим работы" ng-model="main.newShop.time">
+					</div>
+					<div class="form-group">
+						<label for="shop-phone">Телефон</label>
+						<input type="text" class="form-control" id="shop-phone" placeholder="+375 29 222 22 22" ng-model="main.newShop.phone">
+					</div>
+					<div class="form-group">
+						<label for="shop-image">Логотип</label>
+						<input type="text" class="form-control" id="shop-image" placeholder="Укажите путь до файла" ng-model="main.newShop.imgSrc">
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default hidden-xs" data-dismiss="modal" ng-click="main.stopEdit()">Отмена</button>
+				<button type="button" class="btn btn-add-shop" ng-click="main.checkData()" ng-disabled="newShop.$invalid" ng-if="!main.isEdit">Добавить магазин</button>
+				<button type="button" class="btn btn-add-shop" ng-disabled="newShop.$invalid" ng-if="main.isEdit" ng-click="main.saveShop()">Сохранить изменения</button>
+				<button type="button" class="btn btn-danger" ng-if="main.isEdit" ng-click="main.deleteShop()">Удалить</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyqF6P5MXIjHPf1sNRd-c5KVx-QWTdKOo"></script>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/controllers/MainCtrl.js"></script>
+<script src="js/controllers/ShopDetailCtrl.js"></script>
+</body>
+</html>
